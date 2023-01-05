@@ -2,7 +2,7 @@ import mysql.connector as c
 
 con=c.connect(host="localhost",
               user="root",
-              passwd=input("ENTER YOUR MYSQL PASSWORD:"),
+              passwd="6515",
               database="hospital_management")
 
 cursor=con.cursor()
